@@ -81,6 +81,8 @@ int main(){
 	TBuffer buf;
 	pthread_t prod, cons;
 
+	std::cout << "Impresion de prueba para git" << std::endl;
+
 	//Init estructura:
 	pthread_mutex_init(&buf.mutex, 0);
 	buf.indexC = buf.indexP = 0;
